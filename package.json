@@ -1,5 +1,5 @@
 {
-  "name": "rn-video-player",
+  "name": "@mores8/rn-video-player",
   "version": "1.0.0",
   "description": "React Native video player & controls UI",
   "main": "lib/commonjs/index",

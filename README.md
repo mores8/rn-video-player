@@ -25,13 +25,13 @@ React Native video player & controls UI
 2. Install rn-video-player
 
     ```sh
-    npm install rn-video-player
+    npm install @mores8/rn-video-player
     ```
 
 ## Usage
 
 ```jsx
-import VideoPlayer from "rn-video-player";
+import VideoPlayer from "@mores8/rn-video-player";
 
 <VideoPlayer
     style={{height: ,width: 320}}
@@ -78,7 +78,7 @@ controlDuration       | number   | No       | 3                         | Set th
 ```jsx
 import * as React from 'react';
 import { StyleSheet, View, useWindowDimensions } from 'react-native';
-import VideoPlayer from "rn-video-player";
+import VideoPlayer from "@mores8/rn-video-player";
 
 const sampleUrl = 'url to video content';
 function App() {

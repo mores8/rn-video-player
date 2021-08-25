@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { StyleSheet, View, useWindowDimensions } from 'react-native';
-import VideoPlayer from 'rn-video-player';
+import VideoPlayer from '@mores8/rn-video-player';
 
 const sampleUrl =
   'https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8';
