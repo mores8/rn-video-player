@@ -97,7 +97,7 @@ export type VideoProps = VideoPlayerContainerProps & {
   cover: string;
   loop?: boolean;
   autoPlay?: boolean;
-  hideFullScreenControl: boolean;
+  hideFullScreenControl?: boolean;
   playInBackground?: boolean;
   playWhenInactive?: boolean;
   onEnd: () => void;
@@ -146,6 +146,7 @@ class Video extends Component<VideoProps, VideoState> {
     // error: true,
     loop: false,
     autoPlay: false,
+    hideFullScreenControl: false,
     inlineOnly: false,
     fullScreenOnly: false,
     playInBackground: false,

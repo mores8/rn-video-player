@@ -25,7 +25,7 @@ type ControlBarProps = {
   onSeekRelease: (val: number) => void;
   fullscreen: boolean;
   inlineOnly: boolean;
-  hideFullScreenControl: boolean;
+  hideFullScreenControl?: boolean;
   progress: number;
   currentTime: number;
   duration: number;

@@ -44,7 +44,7 @@ type ControlsProps = {
   playerState: PlayerState;
   paused: boolean;
   inlineOnly: boolean;
-  hideFullScreenControl: boolean;
+  hideFullScreenControl?: boolean;
   fullscreen: boolean;
   more: boolean;
   loading: boolean;
