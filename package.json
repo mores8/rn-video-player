@@ -1,6 +1,6 @@
 {
   "name": "rn-video-player",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "React Native video player & controls UI",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -38,7 +38,7 @@
     "android"
   ],
   "repository": "https://github.com/mores8/rn-video-player",
-  "author": "mores8 <moreaibs008@gmail.com> (https://github.com/mores8)",
+  "author": "mores8 (https://github.com/mores8)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mores8/rn-video-player/issues"
